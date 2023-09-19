@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Hansda</title>
+    <link rel="stylesheet" href="college.css">
+    <meta content='width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' name='viewport' />
+</head>
+
+<body>
+
+
+    <!-----------------------Topbar------------------------------->
+    <div class="navtopbar">
+        <img src="image/gp-khutri-logo-Main2.png" alt="" class="logo1">
+        <div class="title">
+            <span> Government Polytechnic - Khutri</span>
+            <snap>Bokaro, Jharkhand, Pin 829301 </snap>
+            <p>Email ID:- gpkhutri@rediffmail.com </p>
+            <p>Phone No 06542 291237</p>
+        </div>
+        <!---<img src="/image/jharkhandlogo.png" alt="" class="logo2"> -->
+    </div>
+
+
+
+    <!-----------------------navbar --------------------------->
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a class="Home" href="#">Home</a></li>
+            <li><a class="About Us" href="#">About Us</a></li>
+            <li><a class="Students_Corner" href="#">Students Corner</a></li>
+            <li><a class="Mandatory_Disclosure" href="#">Mandatory Disclosure</a></li>
+            <li><a class="Grievance_redressal" href="#">Grievance redressal</a></li>
+            <li><a class="Feedback" href="#">Feedback</a></li>
+            <li><a class="Notice" href="#">Notice</a></li>
+            <li><a class="Contect_Us" href="#">Contect Us</a></li>
+        </ul>
+
+        <!-- login button 
+        <button class="button-28" role="button">login</button>
+
+
+        <!---<div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close-circle-outline"></ion-icon>
+        </div> 
+
+    -->
+
+    </nav>
+
+
+
+    <!-- ************************************************************
+                      marquee
+****************************************************************--->
+
+
+
+    <marquee scrollamount=" 20" behavior="scroll" direction="left" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+        <span> <a class="marquee_1" href="https://codepen.io/erickarbe/pen/DEjqxv" >Welcome to Goverment Polytechnic khutri Bokaro steel city</a>  </span>
+        <span> <a class="marquee_2" href="https://way2tutorial.com/html/html_marquee_start_stop.php " >Admition open</a>  </span>
+        <img height="10px" width="25px" src="/image/new.gif" alt="new ">
+    </marquee>
+
+
+    <!-- *************************************************************
+                       Banner
+*******************************************************************-->
+
+    <div class="main">
+        <div id="slider">
+            <figure>
+                <img src="image/banner_1.png">
+                <img src="image/Banner_2.png">
+                <img src="image/banner_3.png">
+                <img src="image/Banner_2.png">
+
+
+
+            </figure>
+        </div>
+    </div>
+
+    <!-- *************************************************************
+                       Main Body
+*******************************************************************-->
+
+
+
+
+    <div class="main_body">
+        <div class="top_main">dfds</div>
+    </div>
+
+
+    <!-- *************************************************************
+                        Java Script 
+*******************************************************************-->
+    <script src="college.js ">
+    </script>
+
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+
+</html>
