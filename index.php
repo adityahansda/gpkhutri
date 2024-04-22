@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Government Polytechnic Khutri Bokaro</title>
+    <link rel="stylesheet" href="college.css">
+    <meta content='width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' name='viewport' />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body>
+
+    <div class="background-top">
+        <!-- ************************************************************
+                      marquee 
+****************************************************************--->
+        <div class="marquee1">
+            <marquee loop="infinite" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <img height="20px" width="20px" src="assets/image/star.gif" alt=""> <a href="https://bento.me/adityahansda">  This website is not the original website of G.P. Khutri. It was designed by Aditya Hansda, CSE student of Gpkhutri  &nbsp;&nbsp;&nbsp;&nbsp;   
+                <img  src="assets/image/star.gif" alt="">Admission Helpline - 06542 - 291237</a></marquee>
+        </div>
+
+
+
+
+        <!-----------------------Topbar------------------------------>
+        <div class="navtopbar">
+            <a href="index.html"> <img src="assets/image/gp-khutri-logo-Main2.png" alt="Image Not shown" class="logo1"></a>
+            <div class="title">
+                <h1> Government Polytechnic - Khutri</h1>
+                <span>Bokaro, Jharkhand, Pin 829301 </span>
+                <!-- <p>Email ID:- gpkhutri@rediffmail.com </p>
+                <p>Phone No - 06542 291237</p> -->
+            </div>
+            <a href="index.html"> <img src="assets/image/jcecebLogo.png" alt="Image Not shown" class="logo2"></a>
+            <!---<img src="/assets/image/jharkhandlogo.png" alt="Image Not shown" class="logo2"> -->
+        </div>
+
+
+        <!------------------------------------------------------navbar ------------------------------------------->
+
+        <nav id="navbar" class="navbar">
+            <!---------------------Mobile Nav----------------->
+
+            <img id="mobile_logo" class="mobile_logo" src="assets/image/gp-khutri-logo-Main.png" alt="">
+            <div class="mobile_logo-title">
+                <p>Government Polytechnic</p>
+                <span>Khutri, Bokaro</span>
+
+            </div>
+
+
+
+
+            <!---------------------Mobile Nav END----------------->
+
+
+            <ul class=menu1>
+                <li><a class="Home" href="#">Home</a></li>
+                <li><a class="Students_Corner" href="#">Students Corner</a></li>
+                <li><a class="Academics" href="#">Academics</a></li>
+                <li><a class="News & Events" href="#">News & Events</a></li>
+                <li><a class="Feedback" href="#">Feedback</a></li>
+                <li><a class="Notice" href="#">Notice</a></li>
+                <li><a class="About Us" href="#">About Us</a></li>
+                <li><a class="Contect_Us" href="#">Contect Us</a></li>
+            </ul>
+
+            <button class="sign_bt" onclick="window.location.href = 'register.php'"> Sign in</button>
+            <i id="menu_button" class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            <!--------------------Submenu-------------------------->
+
+        </nav>
+
+
+
+        <!-- ************************************************************
+                      Welcome Image 
+****************************************************************--->
+
+        <div class="welcome">
+            <div class="welcome_box">
+                <div class="welcome_text">
+                    <img src="assets/logo/gp-khutri-logo-Main.png" alt="">
+                    <h1>Welcome to Goverment</h1>
+                    <span> Polytechnic, Khutri Bokaro</span>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- ************************************************************
+                      marquee mobile
+****************************************************************--->
+        <div class="marquee1 marquee_2">
+            <marquee loop="infinite" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> <img height="20px" width="20px" src="assets/image/star.gif" alt=""> <a href="https://bento.me/adityahansda">  This website is not the original website of G.P. Khutri. It was designed by Aditya Hansda, CSE student of Gpkhutri</a></marquee>
+        </div>
+
+
+
+
+        <!-- **********************************************************
+    ********************* Main Body ****************
+        ***************************************************-->
+
+        <div class="main_body">
+
+            <!-- *************************************************************
+                       Image slider
+*******************************************************************-->
+            <div class="img_banner_main">
+                <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container1">
+                    <div class="ws_images">
+                        <ul>
+                            <li><img src="data1/images/img20240126111644.jpg" alt="IMG20240126111644" title="IMG20240126111644" id="wows1_0" /></li>
+                            <li><img src="data1/images/img20240126111401.jpg" alt="IMG20240126111401" title="IMG20240126111401" id="wows1_1" /></li>
+                            <li><img src="data1/images/img_20240126_110702.jpg" alt="IMG_20240126_110702" title="IMG_20240126_110702" id="wows1_2" /></li>
+                            <li><img src="data1/images/img20240126104444.jpg" alt="IMG20240126104444" title="IMG20240126104444" id="wows1_3" /></li>
+                            <li><img src="data1/images/img20230915122151_01.jpg" alt="IMG20230915122151_01" title="IMG20230915122151_01" id="wows1_4" /></li>
+                            <li>
+                                <a href="http://wowslider.net"><img src="data1/images/img20230915121556_01.jpg" alt="jquery carousel slider" title="IMG20230915121556_01" id="wows1_5" /></a>
+                            </li>
+                            <li><img src="data1/images/img20230915121555_01.jpg" alt="IMG20230915121555_01" title="IMG20230915121555_01" id="wows1_6" /></li>
+                        </ul>
+                    </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="IMG20240126111644"><span><img src="data1/tooltips/img20240126111644.jpg" alt="IMG20240126111644"/>1</span></a>
+                            <a href="#" title="IMG20240126111401"><span><img src="data1/tooltips/img20240126111401.jpg" alt="IMG20240126111401"/>2</span></a>
+                            <a href="#" title="IMG_20240126_110702"><span><img src="data1/tooltips/img_20240126_110702.jpg" alt="IMG_20240126_110702"/>3</span></a>
+                            <a href="#" title="IMG20240126104444"><span><img src="data1/tooltips/img20240126104444.jpg" alt="IMG20240126104444"/>4</span></a>
+                            <a href="#" title="IMG20230915122151_01"><span><img src="data1/tooltips/img20230915122151_01.jpg" alt="IMG20230915122151_01"/>5</span></a>
+                            <a href="#" title="IMG20230915121556_01"><span><img src="data1/tooltips/img20230915121556_01.jpg" alt="IMG20230915121556_01"/>6</span></a>
+                            <a href="#" title="IMG20230915121555_01"><span><img src="data1/tooltips/img20230915121555_01.jpg" alt="IMG20230915121555_01"/>7</span></a>
+                        </div>
+                    </div>
+                    <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">bootstrap image slider</a> by WOWSlider.com v9.0</div>
+                    <div class="ws_shadow"></div>
+                </div>
+                <script type="text/javascript" src="engine1/wowslider.js"></script>
+                <script type="text/javascript" src="engine1/script.js"></script>
+                <!-- End WOWSlider.com BODY section -->
+
+            </div>
+
+
+            <!-- *************************************************************
+                       notfication marquee
+*******************************************************************-->
+
+
+            <div class="notification">
+                <div class="notification_background">
+                    <h1> Notice & Tenders</h1>
+                </div>
+
+
+
+                <div class="marquee-container">
+
+                    <div id="loading_icon">
+                        <div class="three-body">
+                            <div class="three-body__dot"></div>
+                            <div class="three-body__dot"></div>
+                            <div class="three-body__dot"></div>
+                        </div>
+                        <span>loading....</span>
+                    </div>
+
+
+                    <!------------------------------->
+                    <div class="scrolling-content">
+
+                        <div class="scroll" id="scroll">
+                            <!-----------Notification 1--------->
+                            <div class="Title">
+                                <p> Medical Fittnes Form for New Admission.</p>
+                                <div class="title_box_bottom">
+                                    <div class="Notice_date">Date-14-04-2023<img height="20px" width="30px" src="assets/image/new2.gif"></div>
+                                    <button class="notification_button" onclick="window.location.href= '#'"> Read More
+                                    </button>
+                                </div>
+                            </div>
+
+
+                            <!-----------Notification 2--------->
+                            <div class="Title">
+                                <p> Important notice :- Exam schedule for 6th sem 2020 and also of special exam for back sutudents old syllabus</p>
+                                <div class="title_box_bottom">
+                                    <div class="Notice_date">Date-14-04-2023<img height="20px" width="30px" src="assets/image/new2.gif"></div>
+                                    <button class="notification_button" onclick="window.location.href= '#'"> Read More
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- *************************************************************
+                         Event 
+*******************************************************************-->
+
+
+
+    <div class="branch-main">
+
+    </div>
+
+
+
+    <!-- *************************************************************
+                         Principal message
+*******************************************************************-->
+    <div class="Principal_message">
+        <div class="message_img">
+            <img class="Principal_img" src="assets/image/Principal_sir.jpg" alt="">
+        </div>
+        <div class="message_text">
+            <h1> Principal Message</h1>
+            <p>
+                Government Polytechnic Khutri Bokaro, an autonomous institute under the Government of Jharkhand, strives for global recognition in academics and governance. On August 5, 2017, we celebrated a tree plantation drive. With highly qualified faculty and dedicated
+                non-teaching staff, we ensure excellence in all activities. Our outstanding infrastructure includes well-equipped engineering departments, libraries, classrooms, seminar rooms, workshops, computer labs, and an auditorium. Through synergistic
+                efforts, we aim to shape our students into globally competitive entrepreneurs and employable engineers, contributing to India's knowledge pool.
+            </p>
+        </div>
+    </div>
+
+    <!-- *************************************************************
+                       Placment Cantainer
+*******************************************************************-->
+
+    <div class="placement">
+        <div>
+            <h1>Top Recruiters</h1>
+        </div>
+        <div class="img_box_plac">
+            <img height="80px" width="150px" src="assets/image/placements/Vap-Logo-01.png">
+            <img height="20px" width="150px" src="assets/image/placements/tenneco-logo_rgb.png">
+            <img height="80px" width="150px" src="assets/image/placements/pinn.svg">
+            <img height="30px" width="150px" src="assets/image/placements/misuba.png">
+            <img height="40px" width="150px" src="assets/image/placements/jktyer.png">
+            <img height="50px" width="150px" src="assets/image/placements/madhu.png">
+        </div>
+
+    </div>
+
+
+
+
+    <!-- *************************************************************
+                          Footer
+*******************************************************************-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Quick Link </h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">TRaning & Placments</a></li>
+                        <li><a href="#">Notice</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Academy</h4>
+                    <ul>
+                        <li><a href="#">Diploma</a></li>
+                        <li><a href="#">Admission Procedure</a></li>
+                        <li><a href="#">Free structure</a></li>
+                        <li><a href="#">Seminars and Workshops</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Student</h4>
+                    <ul>
+                        <li><a href="#">Facilities</a></li>
+                        <li><a href="#">Exams</a></li>
+                        <li><a href="#">Results</a></li>
+                        <li><a href="#">Archives</a></li>
+                        <li><a href="#">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <hr class="hr_footer">
+            <div class="copyright">
+                <p>Copyright © 2024 <span style="color: #ffffff;"><a style="color: #ffffff;" href="http://www.gpkhutri.co.in/"><strong>G.P Khutri </strong></a> </span>All rights reserved.</p>
+
+
+            </div>
+            <div class="madby"> <span>  Website Design by <a href="https://bento.me/adityahansda"> Aditya Hansda</a></span></div>
+            <div class="version"> <span>  Version - 21.4 Under Development ! </span></div>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- *************************************************************
+                        Java Script 
+*******************************************************************-->
+    <!------------stiky Effect-->
+
+    <script>
+        const navbar = document.querySelector('.navbar');
+        const mobileLogo = document.querySelector('.mobile_logo');
+        const marquee = document.querySelector('.marquee1');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 250) {
+                navbar.classList.add('sticky');
+
+                mobileLogo.classList.add('show');
+            } else {
+                navbar.classList.remove('sticky');
+                mobileLogo.classList.remove('show');
+            }
+        });
+    </script>
+
+
+    <!------------------------------------------------------->
+    <script src="https://kit.fontawesome.com/5f18765c61.js" crossorigin="anonymous"></script>
+
+    <script src="college.js "></script>
+
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+
+    <!---------------Icon Loading funtion------------------>
+
+
+
+    <!------------------------------------------------
+    ---------------Notification -------------------->
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            // hide the content initially
+            $('#scrolling-content').hide();
+            $('#scroll').hide();
+
+            // show the loading icon
+            $('#loading_icon').show();
+
+            // set a 5 second timer to hide the loading icon and show the content
+            setTimeout(function() {
+                $('#loading_icon').fadeOut('slow',
+                    function() {
+                        $('#scrolling-content').fadeIn('slow');
+                        $('#scroll').fadeIn('slow');
+                    });
+            }, 5000); // 5000 milliseconds = 5 seconds
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--------------Banner Script------------------>
+    <!-- 
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+    </script> -->
+</body>
+
+</html>
